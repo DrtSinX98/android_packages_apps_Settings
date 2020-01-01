@@ -217,4 +217,9 @@
         <item quantity="one">1 app locked</item>
         <item quantity="other">%d apps locked</item>
     </plurals>
+
+    <!-- One ui actionbar -->
+    <string name="enable_oneui">OneUI</string> 
+    <string name="enable_oneui_summary">Show spacer above settings actionbar for easier use with one hand\nNOTE: restart settings app to see effect</string>
+
 </resources>

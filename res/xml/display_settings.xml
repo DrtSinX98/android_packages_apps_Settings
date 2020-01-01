@@ -41,6 +41,13 @@
         settings:controller="com.android.settings.display.DarkUIPreferenceController"
         settings:searchable="false"/>
 
+    <!--oneui spacer--> 
+    <com.android.settings.display.SystemSettingSwitchPreference
+        android:key="settings_spacer" 
+        android:title="@string/enable_oneui" 
+        android:summary="@string/enable_oneui_summary"
+        android:defaultValue="false" />
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"

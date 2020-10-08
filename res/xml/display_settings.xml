@@ -187,13 +187,6 @@
         android:defaultValue="false"
         lineage:requiresFeature="lineagehardware:FEATURE_HIGH_TOUCH_SENSITIVITY" />
 
-    <!--oneui spacer-->
-    <lineageos.preference.LineageSystemSettingSwitchPreference
-        android:key="settings_spacer"
-        android:title="@string/enable_oneui"
-        android:summary="@string/enable_oneui_summary"
-        android:defaultValue="true" />
-
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"

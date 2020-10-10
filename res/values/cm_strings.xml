@@ -217,4 +217,8 @@
         <item quantity="one">1 app locked</item>
         <item quantity="other">%d apps locked</item>
     </plurals>
+
+    <string name="brightness_slider_qs_unexpanded">MIUI style brightness slider</string>
+    <string name="brightness_slider_qs_unexpanded_summary">Shows brightness slider below qs panel</string>
+
 </resources>

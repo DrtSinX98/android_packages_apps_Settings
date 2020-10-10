@@ -187,6 +187,12 @@
         android:defaultValue="false"
         lineage:requiresFeature="lineagehardware:FEATURE_HIGH_TOUCH_SENSITIVITY" />
 
+    <lineageos.preferences.SystemSettingSwitchPreference
+        android:key="brightness_slider_qs_unexpanded"
+        android:title="@string/brightness_slider_qs_unexpanded"
+        android:summary="@string/brightness_slider_qs_unexpanded_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
